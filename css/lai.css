@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* lalibela */
+.con1{
+    height: 100vh;
+    /* background-color:#6b1930de ;  */
+     background-color:#462312f6; 
+     padding: 80px 40px 40px 40px;
+}
+.dd{
+    text-align: center;
+    /* margin-bottom: 50px; */
+    color: #fff;
+
+}
+.laii{
+    color: #fff;
+    column-count: 3;
+    column-width: 250px;
+    column-rule: 3px solid #222;
+    column-gap: 3em;
+    line-height: 30px;
+    padding-top:10px ;
+}
+.laii p{
+    margin-top: 10px;
+}
+.imee1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.laaa{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.laaa:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* axum */
+.con2{
+    height: 100vh;
+    background:#233e38 ;
+    padding: 80px 40px 40px 40px;
+}
+/* afar */
+.con3{
+    height: 100vh;
+    background:#462312f6  ;
+    padding: 80px 40px 40px 40px;
+}
+/* Fasilides */
+.con4{
+    height: 100vh;
+    background:#233e38 ;
+    padding: 80px 40px 40px 40px;
+
+}
+/* footer */
+footer{
+    height: 40vh;
+    background: rgb(27, 26, 26);
+     padding: 20px; 
+    
+}
+.foo{
+    height: 100px;
+    margin:0 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.llo{
+    font-size: small;
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(206, 194, 194, 0.89);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    line-height: 20px;
+}
+.kaaa::before{
+    content: "< / > ";
+}
+
+.yy {
+    line-height: normal;
+    color: rgba(206, 194, 194, 0.89);
+    cursor: pointer;
+}
+.yy a{
+     text-decoration: none;
+     color:rgb(67, 180, 255);
+}
+h4{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:900px) {
+   .con2,
+   .con3,.con4{
+        height: 200vh;
+        font-size: 15px;
+        overflow: auto;
+    }
+    .con1{
+        height: 200vh;
+        font-size: 15px;
+        overflow: auto;
+    }
+    .dd{
+        font-size: 18px;
+    }
+    footer{
+        height: 50vh;
+    }
+    .yy{
+        font-size: 12px;
+    }
+    .laaa{
+        width: 40px;
+        height: 40px;
+    }
+    .laaa:hover{
+        width: 60px;
+        height: 60px;
+    }
+    
+}
+
